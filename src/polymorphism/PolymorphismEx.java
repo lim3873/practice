@@ -1,3 +1,5 @@
+package polymorphism;
+
 //다형성 적용
 public class PolymorphismEx {
     public static void main(String[] args) {
@@ -49,15 +51,15 @@ class Customer {
     }
 
 // 커피의 종류가 많이질수록 일일히 커피의 정보를 매개변수로 호출하는 방법이 불편해진다
-//    void boyCoffee(CaffeLatte caffeLatte){ // 카페라테 구입
+//    void boyCoffee(polymorphism.CaffeLatte caffeLatte){ // 카페라테 구입
 //        money = money - americano.price;
 //    }
-//    void buyCoffee(Americano americano){ // 아메리카노 구입
+//    void buyCoffee(polymorphism.Americano americano){ // 아메리카노 구입
 //        money = money - caffeLatte.price;
 //    }
 //   매개변수의 다형성을 이용해 이용해서 coffe 상위 클래스에서 해결을 할수도 있음
 //
-//    void buyCoffe(Coffee coffee){
+//    void buyCoffe(polymorphism.Coffee coffee){
 //        money = money - coffee.price;
 //    }
 }

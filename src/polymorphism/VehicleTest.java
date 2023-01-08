@@ -1,8 +1,10 @@
+package polymorphism;
+
 public class VehicleTest {
     Car car = new Car();
     Veichle veichle = (Veichle) car;
     Car car2 = (Car) veichle;
-//    MotorBike motorBike = (MotorBike) car;
+//    polymorphism.MotorBike motorBike = (polymorphism.MotorBike) car;
 
 }
 

@@ -1,3 +1,5 @@
+package polymorphism;
+
 public class InstanceOfExample {
         public static void main(String[] args) {
             Animal animal = new Animal();
